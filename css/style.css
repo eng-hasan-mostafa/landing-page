@@ -134,3 +134,38 @@
     align-self: flex-end;
     font-weight: 900;
 }
+
+/* Action section */
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.action-section .content {
+    background-color: #3882F6;
+    width: 950px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;    
+}
+
+.action-section h2 {
+    color: #F9FAF8;
+    font-weight:900;
+}
+.action-section p {
+    color: #E5E7EB;
+}
+
+.action-section button {
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    color: #F9FAF8;
+    font-weight:900;
+}
