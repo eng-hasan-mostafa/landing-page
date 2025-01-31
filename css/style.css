@@ -5,6 +5,7 @@
     font-family: Roboto, sans-serif;
 }
 
+/* Home section */
 .home-section {
     background-color: #1F2937;
     display: flex;
@@ -73,6 +74,7 @@
     margin-top: 5px;
 }
 
+/* Information section */
 .info-section {
     display:flex;
     flex-direction: column;
@@ -106,4 +108,29 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+/* Quote section */
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote-section .container {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width: 830px;
+}
+
+.quote-section span {
+    align-self: flex-end;
+    font-weight: 900;
 }
